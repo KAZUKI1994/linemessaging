@@ -47,12 +47,12 @@ if($message->{"text"} == "確認"){
             'actions' => [
                 [
                     'type' => 'postback',
-                    'label' => 'send the post to webhook.',
+                    'label' => 'POST投稿1',
                     'data' => 'value'
                 ],
                 [
                     'type' => 'uri',
-                    'label' => 'move to google.',
+                    'label' => 'POST投稿2',
                     'uri' => 'https://google.com'
                 ]
             ]
