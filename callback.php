@@ -56,7 +56,6 @@ if($message->{"text"} == "確認"){
                     'uri' => 'https://google.com'
                 ]
             ]
-
         ]
     ];
 }elseif($message->{"text"}=='カルーセル'){
