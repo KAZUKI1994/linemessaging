@@ -78,7 +78,7 @@ if($message->{"text"} == "確認"){
                         [
                             'type' => 'uri',
                             'label' => '口コミ見る',
-                            'uri' => 'http://clinic.e-kuchikomi.info/';
+                            'uri' => 'http://clinic.e-kuchikomi.info/'
                         ]
                     ]
                 ],
@@ -94,7 +94,7 @@ if($message->{"text"} == "確認"){
                         [
                             'type' => 'uri',
                             'label' => 'ごにょごにょ見る',
-                            'uri' => 'http://clinic.e-kuchikomi.info/';
+                            'uri' => 'http://clinic.e-kuchikomi.info/'
                         ]
                      ]
                 ],
