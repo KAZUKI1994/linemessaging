@@ -121,7 +121,7 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($response));
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(
     'Content-Type: application/json; charset=UTF-8',
-    'Authorization: Bearer'.$accessToken
+    'Authorization: Bearer '.$accessToken
 ));
 $result = curl_exec($ch);
 error_log($result);
