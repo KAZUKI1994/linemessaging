@@ -71,7 +71,7 @@ if($message->{"text"} == "確認"){
                     'actions' => [
                         [
                             'type' => 'postback',
-                            'label' => 'send the post to webhook.',
+                            'label' => 'post投稿1',
                             'data' => 'value'
                         ],
                         [
@@ -87,7 +87,7 @@ if($message->{"text"} == "確認"){
                     'actions' => [
                         [
                             'type' => 'postback',
-                            'label' => 'send the post to webhook.',
+                            'label' => 'post投稿2',
                             'data' => 'value'
                         ],
                         [
